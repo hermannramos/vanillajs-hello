@@ -23,3 +23,5 @@ function updateExcuse() {
 }
 
 window.onload = updateExcuse;
+let botonExcusa = document.getElementById("boton");
+botonExcusa.addEventListener("click", updateExcuse);
